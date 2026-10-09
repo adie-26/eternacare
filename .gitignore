@@ -1,0 +1,15 @@
+
+.env
+.env.*
+!.env.example
+
+/vendor/
+*.sql
+
+/uploads/*
+!/uploads/.gitkeep
+
+/config/database.php
+/setup_admin.php
+/setup_staff.php
+/test_connection.php
